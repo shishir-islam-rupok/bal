@@ -2,6 +2,7 @@ export const FORMAT_OPTIONS = {
     jpg: { label: 'JPG', mime: 'image/jpeg', extension: 'jpg' },
     png: { label: 'PNG', mime: 'image/png', extension: 'png' },
     webp: { label: 'WEBP', mime: 'image/webp', extension: 'webp' },
+    avif: { label: 'AVIF', mime: 'image/avif', extension: 'avif' },
 } as const
 
 export type OutputFormat = keyof typeof FORMAT_OPTIONS
