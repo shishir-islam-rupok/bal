@@ -1,0 +1,3 @@
+# Add your real Google AdSense publisher record before production deployment.
+# Format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Replace the placeholder record above with the record from your AdSense account.
