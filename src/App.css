@@ -57,7 +57,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    padding: 20px 5vw;
+    padding: 20px 2.5vw;
     background: rgba(12, 13, 16, 0.78);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--line);
@@ -154,7 +154,7 @@ footer button:hover {
 }
 
 main {
-    width: min(1040px, calc(100% - 40px));
+    width: min(1280px, calc(100% - 32px));
     margin: 0 auto;
     flex: 1;
 }
@@ -166,9 +166,9 @@ main {
 
 .converter-hero {
     display: grid;
-    grid-template-columns: .82fr 1.18fr;
+    grid-template-columns: .72fr 1.28fr;
     align-items: center;
-    gap: 52px;
+    gap: 34px;
     padding: 38px 0 0;
     min-height: 680px;
 }
@@ -181,7 +181,7 @@ main {
     position: relative;
     display: grid;
     grid-template-columns: 1.35fr 0.95fr;
-    gap: 18px;
+    gap: 14px;
     min-height: 520px;
 }
 
@@ -917,7 +917,7 @@ select {
 .showcase-grid {
     display: grid;
     grid-template-columns: 1.4fr 1fr 1fr;
-    gap: 18px;
+    gap: 14px;
 }
 
 .showcase-card {
@@ -944,6 +944,7 @@ select {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .feature-large {
@@ -989,7 +990,7 @@ select {
 .story-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
+    gap: 14px;
     margin-top: 18px;
 }
 
@@ -1206,7 +1207,7 @@ select {
 
 .site-footer {
     margin-top: 20px;
-    padding: 42px 5vw 22px;
+    padding: 42px 2.5vw 22px;
     color: var(--muted);
     border-top: 1px solid var(--line);
     background: #101115;
