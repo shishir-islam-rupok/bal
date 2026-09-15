@@ -2,8 +2,20 @@
     font-family: Inter, 'Segoe UI', sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #111827;
-    background: #d8d8d1;
+    color: #071529;
+    background: #f5f8ff;
+    --paper: #f5f8ff;
+    --surface: #ffffff;
+    --surface-strong: #eaf1ff;
+    --ink: #071529;
+    --muted: #566982;
+    --line: rgba(31, 75, 133, 0.14);
+    --line-strong: rgba(31, 75, 133, 0.24);
+    --orange: #0878f1;
+    --orange-soft: rgba(8, 120, 241, 0.1);
+    --gold: #5630f5;
+    --heading: Inter, 'Segoe UI', sans-serif;
+    --mono: 'DM Mono', Consolas, monospace;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -25,6 +37,9 @@ body,
 body {
     min-width: 320px;
     min-height: 100vh;
+    background:
+        radial-gradient(circle at top left, rgba(24, 199, 237, 0.16), transparent 28%),
+        linear-gradient(180deg, #f8fbff, #edf4ff 30%, #f5f8ff 100%);
 }
 
 img {
