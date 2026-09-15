@@ -102,13 +102,25 @@
 }
 
 @keyframes grid-drift {
-    from { transform: perspective(500px) rotateX(62deg) translateY(-12%); }
-    to { transform: perspective(500px) rotateX(62deg) translateY(12%); }
+    from {
+        transform: perspective(500px) rotateX(62deg) translateY(-12%);
+    }
+
+    to {
+        transform: perspective(500px) rotateX(62deg) translateY(12%);
+    }
 }
 
 @keyframes beam-drift {
-    from { translate: -3% 0; opacity: .45; }
-    to { translate: 12% 20px; opacity: .9; }
+    from {
+        translate: -3% 0;
+        opacity: .45;
+    }
+
+    to {
+        translate: 12% 20px;
+        opacity: .9;
+    }
 }
 
 .site-header {
@@ -127,10 +139,10 @@
 
 .brand {
     flex: 0 0 auto;
-    border: 1px solid rgba(130, 165, 215, 0.18);
-    border-radius: 9px;
-    padding: 5px 10px;
-    background: #f7fbff;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
     cursor: pointer;
 }
 
