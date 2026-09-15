@@ -97,7 +97,7 @@ function App() {
   return (
     <div className="app-shell">
       <header className="site-header">
-        <button className="brand" type="button" onClick={() => { setView('converter'); window.scrollTo({ top: 0, behavior: 'smooth' }) }}><img className="brand-logo" src="/logo.svg" alt="File Shift" /></button>
+        <button className="brand" type="button" onClick={() => { setView('converter'); window.scrollTo({ top: 0, behavior: 'smooth' }) }}><img className="brand-logo" src="/logo.png" alt="File Shift" /></button>
         <nav aria-label="Main navigation">
           <button className={view === 'converter' && mode === 'image' ? 'nav-link active' : 'nav-link'} type="button" onClick={() => { clearFiles(); setMode('image'); setView('converter') }}>Image converter</button>
           <button className={view === 'converter' && mode === 'media' ? 'nav-link active' : 'nav-link'} type="button" onClick={() => { clearFiles(); setMode('media'); setView('converter') }}>Audio &amp; video</button>
@@ -343,7 +343,7 @@ function App() {
       </main>
       <footer className="site-footer">
         <div className="footer-main">
-          <div className="footer-brand"><button className="brand" type="button" onClick={() => { setView('converter'); window.scrollTo({ top: 0, behavior: 'smooth' }) }}><img className="brand-logo" src="/logo.svg" alt="File Shift" /></button><p>Simple, private tools for everyday file work.</p><small>Images are processed in your browser.</small></div>
+          <div className="footer-brand"><button className="brand" type="button" onClick={() => { setView('converter'); window.scrollTo({ top: 0, behavior: 'smooth' }) }}><img className="brand-logo" src="/logo.png" alt="File Shift" /></button><p>Simple, private tools for everyday file work.</p><small>Images are processed in your browser.</small></div>
           <div className="footer-column"><strong>Tools</strong><button type="button" onClick={() => setView('converter')}>Image converter</button><button type="button" onClick={() => setView('about')}>How it works</button></div>
           <div className="footer-column"><strong>Information</strong><a href="/about.html">About File Shift</a><a href="/privacy.html">Privacy policy</a><a href="/terms.html">Terms of use</a><a href="/contact.html">Contact support</a></div>
         </div>
