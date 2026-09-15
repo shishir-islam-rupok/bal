@@ -123,7 +123,7 @@ function App() {
 
               <div className="hero-visual" aria-label="Product preview collage">
                 <div className="collage-panel main-panel">
-                  <img src="/visuals/hero-convert.svg" alt="Illustration of a file moving from image input to converted output" />
+                  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85" alt="Laptop displaying a browser-based digital workflow" />
                   <div className="panel-overlay">
                     <span>Premium output</span>
                     <strong>Batch convert</strong>
@@ -132,7 +132,7 @@ function App() {
                 </div>
                 <div className="mini-panel">
                   <div className="mini-thumb">
-                    <img src="/visuals/format-output.svg" alt="Illustration of PNG and JPG format conversion" />
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=85" alt="Designer working with digital image files" />
                   </div>
                   <div className="mini-copy">
                     <span>WEB READY</span>
@@ -198,7 +198,7 @@ function App() {
                   </div>
                   <div className="showcase-grid">
                     <article className="showcase-card product-card feature-large">
-                      <img src="/visuals/format-output.svg" alt="Illustration of image format conversion from PNG to JPG" />
+                      <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=85" alt="Digital image editing workspace for preparing web files" />
                       <div className="card-copy">
                         <span>WEB READY</span>
                         <strong>PNG to JPG</strong>
@@ -206,21 +206,21 @@ function App() {
                       </div>
                     </article>
                     <article className="showcase-card product-card">
-                      <img src="/visuals/batch-files.svg" alt="Illustration of multiple image files prepared for batch conversion" />
+                      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85" alt="Laptop and organized digital work files" />
                       <div className="card-copy">
                         <span>SHOPPING</span>
                         <strong>Product images</strong>
                       </div>
                     </article>
                     <article className="showcase-card product-card">
-                      <img src="/visuals/privacy-browser.svg" alt="Illustration of browser-based private processing" />
+                      <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=85" alt="Laptop showing secure online work" />
                       <div className="card-copy">
                         <span>GRAPHICS</span>
                         <strong>Transparent PNG</strong>
                       </div>
                     </article>
                     <article className="showcase-card product-card">
-                      <img src="/visuals/share-ready.svg" alt="Illustration of a converted file ready to share" />
+                      <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=85" alt="Developer preparing digital files for delivery" />
                       <div className="card-copy">
                         <span>BATCH</span>
                         <strong>Convert in one click</strong>
@@ -236,17 +236,17 @@ function App() {
                   </div>
                   <div className="story-grid">
                     <article>
-                      <img src="/visuals/batch-files.svg" alt="Illustration of batch image conversion" />
+                      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85" alt="Organized digital workflow on a laptop" />
                       <h3>Batch-ready</h3>
                       <p>Pick several files and convert them in one pass.</p>
                     </article>
                     <article>
-                      <img src="/visuals/hero-convert.svg" alt="Illustration of a browser conversion workflow" />
+                      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85" alt="Browser-based creative workflow on a laptop" />
                       <h3>Built for speed</h3>
                       <p>Simple workflow, direct downloads, no signup needed.</p>
                     </article>
                     <article>
-                      <img src="/visuals/privacy-browser.svg" alt="Illustration of local private processing" />
+                      <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=85" alt="Team working together on digital content" />
                       <h3>Privacy-first</h3>
                       <p>Everything runs locally in your browser.</p>
                     </article>
@@ -264,7 +264,7 @@ function App() {
                   </div>
                   <div className="showcase-grid media-grid">
                     <article className="showcase-card feature-large">
-                      <img src="/visuals/audio-trim.svg" alt="Illustration of an audio waveform with trim handles" />
+                      <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=85" alt="Audio editing desk with studio equipment" />
                       <div className="card-copy">
                         <span>AUDIO</span>
                         <strong>MP3 export</strong>
@@ -272,21 +272,21 @@ function App() {
                       </div>
                     </article>
                     <article className="showcase-card">
-                      <img src="/visuals/video-export.svg" alt="Illustration of a video export player" />
+                      <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=900&q=85" alt="Video production camera and editing workflow" />
                       <div className="card-copy">
                         <span>VIDEO</span>
                         <strong>Clip export</strong>
                       </div>
                     </article>
                     <article className="showcase-card">
-                      <img src="/visuals/audio-trim.svg" alt="Illustration of audio trimming in the browser" />
+                      <img src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=900&q=85" alt="Audio production and sound editing equipment" />
                       <div className="card-copy">
                         <span>EDIT</span>
                         <strong>Trim in browser</strong>
                       </div>
                     </article>
                     <article className="showcase-card">
-                      <img src="/visuals/browser-media.svg" alt="Illustration of browser-based media processing" />
+                      <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=900&q=85" alt="Content creation setup ready for media export" />
                       <div className="card-copy">
                         <span>READY</span>
                         <strong>Quick delivery</strong>
