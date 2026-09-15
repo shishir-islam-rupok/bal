@@ -1,41 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap');
-
 :root {
-    --paper: #0d0d10;
-    --surface: #15161a;
-    --surface-strong: #1d1f25;
-    --ink: #f6f1ea;
-    --muted: #b8afa5;
-    --line: rgba(255, 255, 255, 0.08);
-    --line-strong: rgba(255, 255, 255, 0.14);
-    --orange: #dba76a;
-    --orange-soft: rgba(219, 167, 106, 0.14);
-    --gold: #f3d7a1;
-    --heading: 'Manrope', sans-serif;
-    --mono: 'DM Mono', monospace;
-    font: 16px/1.45 var(--heading);
-    color: var(--muted);
-    background: var(--paper);
+    font-family: Inter, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #111827;
+    background: #d8d8d1;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html {
-    background: var(--paper);
+html,
+body,
+#root {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
 }
 
 body {
-    margin: 0;
     min-width: 320px;
-    background:
-        radial-gradient(circle at top left, rgba(219, 167, 106, 0.12), transparent 28%),
-        linear-gradient(180deg, #0d0d10, #111317 30%, #0d0d10 100%);
-    color: var(--ink);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 button,
