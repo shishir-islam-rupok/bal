@@ -1287,9 +1287,33 @@ select {
 
 button:focus-visible,
 select:focus-visible,
-.dropzone:focus-visible {
+.dropzone:focus-visible,
+a:focus-visible,
+summary:focus-visible {
     outline: 2px solid var(--orange);
     outline-offset: 3px;
+}
+
+button:disabled {
+    filter: saturate(.55);
+}
+
+button,
+a,
+summary,
+.dropzone {
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }
 
 @media (max-width: 700px) {
