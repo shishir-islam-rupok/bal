@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 112" role="img" aria-labelledby="title desc">
+  <title id="title">File Shift</title>
+  <desc id="desc">File Shift local file converter logo</desc>
+  <rect x="4" y="4" width="104" height="104" rx="26" fill="#dba76a"/>
+  <path d="M31 72 72 31M45 31h27v27" fill="none" stroke="#0d0d10" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M31 86h42" fill="none" stroke="#0d0d10" stroke-width="7" stroke-linecap="square"/>
+  <text x="132" y="72" fill="#f6f1ea" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-3">file</text>
+  <text x="254" y="72" fill="#dba76a" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-3">shift</text>
+</svg>

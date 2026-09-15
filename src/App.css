@@ -70,29 +70,18 @@
     flex: 0 0 auto;
     border: 0;
     padding: 0;
-    color: var(--ink);
     background: none;
-    font: 700 1.2rem var(--heading);
-    letter-spacing: -.05em;
     cursor: pointer;
 }
 
-.brand span,
-footer span span {
-    color: var(--orange);
+.brand-logo {
+    display: block;
+    width: 148px;
+    height: auto;
 }
 
-.brand-mark {
-    display: inline-grid;
-    place-items: center;
-    width: 25px;
-    height: 25px;
-    margin-right: 7px;
-    color: var(--paper);
-    background: var(--orange);
-    font-family: var(--mono);
-    font-size: 1rem;
-    letter-spacing: 0;
+footer span span {
+    color: var(--orange);
 }
 
 nav {
@@ -115,10 +104,6 @@ footer button {
 
 .nav-link {
     white-space: nowrap;
-}
-
-a.nav-link {
-    text-decoration: none;
 }
 
 .nav-link.active,

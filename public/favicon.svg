@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="File Shift">
+  <rect width="64" height="64" rx="16" fill="#dba76a"/>
+  <path d="M16 43 43 16M25 16h18v18" fill="none" stroke="#0d0d10" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M16 51h28" fill="none" stroke="#0d0d10" stroke-width="5" stroke-linecap="square"/>
+</svg>
