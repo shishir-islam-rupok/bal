@@ -1,9 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 112" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
   <title id="title">File Shift</title>
   <desc id="desc">File Shift local file converter logo</desc>
-  <rect x="4" y="4" width="104" height="104" rx="26" fill="#dba76a"/>
-  <path d="M31 72 72 31M45 31h27v27" fill="none" stroke="#0d0d10" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
-  <path d="M31 86h42" fill="none" stroke="#0d0d10" stroke-width="7" stroke-linecap="square"/>
-  <text x="132" y="72" fill="#f6f1ea" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-3">file</text>
-  <text x="254" y="72" fill="#dba76a" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-3">shift</text>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18c7ed"/>
+      <stop offset=".56" stop-color="#0878f1"/>
+      <stop offset="1" stop-color="#5630f5"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#blue)">
+    <path d="M38 36c4-8 12-13 21-13h51c10 0 16 10 11 19L99 76c-4 8-12 13-21 13H27c-10 0-16-10-11-19z"/>
+    <path d="M28 79c4-8 12-13 21-13h51c10 0 16 10 11 19L89 119c-4 8-12 13-21 13H17c-10 0-16-10-11-19z"/>
+    <path d="M28 122h51c10 0 16 10 11 19l-9 16c-4 8-12 13-21 13H9c-10 0-16-10-11-19l9-16c4-8 12-13 21-13z" transform="translate(0 -10)"/>
+  </g>
+  <text x="142" y="103" fill="#071529" font-family="Manrope, Arial, sans-serif" font-size="75" font-weight="800" letter-spacing="-5">File</text>
+  <text x="290" y="103" fill="url(#blue)" font-family="Manrope, Arial, sans-serif" font-size="75" font-weight="800" letter-spacing="-5">Shift</text>
 </svg>

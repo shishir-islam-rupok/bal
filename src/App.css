@@ -76,7 +76,7 @@
 
 .brand-logo {
     display: block;
-    width: 148px;
+    width: 176px;
     height: auto;
 }
 
@@ -1306,6 +1306,7 @@ summary,
 }
 
 @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
