@@ -2,18 +2,18 @@
     font-family: Inter, 'Segoe UI', sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #071529;
-    background: #f5f8ff;
-    --paper: #f5f8ff;
-    --surface: #ffffff;
-    --surface-strong: #eaf1ff;
-    --ink: #071529;
-    --muted: #566982;
-    --line: rgba(31, 75, 133, 0.14);
-    --line-strong: rgba(31, 75, 133, 0.24);
-    --orange: #0878f1;
-    --orange-soft: rgba(8, 120, 241, 0.1);
-    --gold: #5630f5;
+    color: #edf5ff;
+    background: #07101d;
+    --paper: #07101d;
+    --surface: #101d2d;
+    --surface-strong: #16263b;
+    --ink: #edf5ff;
+    --muted: #9cafc8;
+    --line: rgba(130, 165, 215, 0.18);
+    --line-strong: rgba(130, 165, 215, 0.32);
+    --orange: #25a9ff;
+    --orange-soft: rgba(37, 169, 255, 0.13);
+    --gold: #7568ff;
     --heading: Inter, 'Segoe UI', sans-serif;
     --mono: 'DM Mono', Consolas, monospace;
     font-synthesis: none;
@@ -38,8 +38,7 @@ body {
     min-width: 320px;
     min-height: 100vh;
     background:
-        radial-gradient(circle at top left, rgba(24, 199, 237, 0.16), transparent 28%),
-        linear-gradient(180deg, #f8fbff, #edf4ff 30%, #f5f8ff 100%);
+        linear-gradient(180deg, #07101d, #0a1727 42%, #07101d 100%);
 }
 
 img {

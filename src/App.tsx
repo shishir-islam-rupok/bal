@@ -96,6 +96,7 @@ function App() {
 
   return (
     <div className="app-shell">
+      <div className="ambient-background" aria-hidden="true"><span className="ambient-beam ambient-beam-one" /><span className="ambient-beam ambient-beam-two" /><span className="ambient-grid" /></div>
       <header className="site-header">
         <button className="brand" type="button" onClick={() => { setView('converter'); window.scrollTo({ top: 0, behavior: 'smooth' }) }}><img className="brand-logo" src="/logo.png" alt="File Shift" /></button>
         <nav aria-label="Main navigation">

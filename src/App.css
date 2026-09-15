@@ -50,6 +50,65 @@
     min-height: 100svh;
     display: flex;
     flex-direction: column;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.ambient-background {
+    position: fixed;
+    z-index: -1;
+    inset: 0;
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse at 15% 10%, rgba(28, 174, 255, .12), transparent 34%),
+        radial-gradient(ellipse at 90% 72%, rgba(92, 71, 255, .11), transparent 34%);
+    pointer-events: none;
+}
+
+.ambient-grid {
+    position: absolute;
+    inset: -30%;
+    opacity: .2;
+    background-image: linear-gradient(rgba(127, 163, 215, .09) 1px, transparent 1px), linear-gradient(90deg, rgba(127, 163, 215, .09) 1px, transparent 1px);
+    background-size: 72px 72px;
+    transform: perspective(500px) rotateX(62deg) translateY(-12%);
+    transform-origin: center top;
+    animation: grid-drift 22s linear infinite;
+}
+
+.ambient-beam {
+    position: absolute;
+    width: 72vw;
+    height: 12vh;
+    border: 1px solid rgba(64, 183, 255, .18);
+    background: linear-gradient(90deg, transparent, rgba(39, 166, 255, .08), transparent);
+    filter: blur(10px);
+    transform: rotate(-24deg);
+    animation: beam-drift 18s ease-in-out infinite alternate;
+}
+
+.ambient-beam-one {
+    top: 12%;
+    left: -18%;
+}
+
+.ambient-beam-two {
+    right: -20%;
+    bottom: 14%;
+    animation-delay: -7s;
+    animation-duration: 23s;
+    transform: rotate(24deg);
+}
+
+@keyframes grid-drift {
+    from { transform: perspective(500px) rotateX(62deg) translateY(-12%); }
+    to { transform: perspective(500px) rotateX(62deg) translateY(12%); }
+}
+
+@keyframes beam-drift {
+    from { translate: -3% 0; opacity: .45; }
+    to { translate: 12% 20px; opacity: .9; }
 }
 
 .site-header {
@@ -58,7 +117,7 @@
     justify-content: space-between;
     gap: 24px;
     padding: 20px 2.5vw;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(7, 16, 29, 0.84);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--line);
     position: sticky;
@@ -68,9 +127,10 @@
 
 .brand {
     flex: 0 0 auto;
-    border: 0;
-    padding: 0;
-    background: none;
+    border: 1px solid rgba(130, 165, 215, 0.18);
+    border-radius: 9px;
+    padding: 5px 10px;
+    background: #f7fbff;
     cursor: pointer;
 }
 
@@ -1195,7 +1255,7 @@ select {
     padding: 42px 2.5vw 22px;
     color: var(--muted);
     border-top: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.82);
+    background: rgba(7, 16, 29, 0.78);
     font: .68rem var(--mono);
 }
 
