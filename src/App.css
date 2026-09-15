@@ -99,6 +99,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 28px;
+    flex-wrap: wrap;
 }
 
 .nav-link,
@@ -114,6 +115,10 @@ footer button {
 
 .nav-link {
     white-space: nowrap;
+}
+
+a.nav-link {
+    text-decoration: none;
 }
 
 .nav-link.active,
@@ -269,7 +274,7 @@ main {
     padding: 18px 20px;
     border: 1px solid var(--line);
     border-radius: 22px;
-    background: linear-gradient(135deg, rgba(219, 167, 106, 0.18), rgba(255,255,255,0.03));
+    background: linear-gradient(135deg, rgba(219, 167, 106, 0.18), rgba(255, 255, 255, 0.03));
     min-height: 120px;
 }
 
@@ -393,7 +398,7 @@ select,
 
 .dropzone {
     border-radius: 11px;
-    background: linear-gradient(135deg, var(--surface), #f8f0e9);
+    background: linear-gradient(135deg, var(--surface), var(--surface-strong));
 }
 
 .dropzone:hover,
@@ -403,7 +408,7 @@ select,
 }
 
 .workspace-heading {
-    background: rgba(255, 255, 255, .35);
+    background: rgba(255, 255, 255, .03);
 }
 
 .file-row {
@@ -565,7 +570,7 @@ select,
 
 .trim-editor {
     border-top: 1px solid var(--line);
-    background: #f7f5ef;
+    background: rgba(255, 255, 255, .025);
 }
 
 .trim-editor-heading {
@@ -601,7 +606,7 @@ select,
     height: 48px;
     margin: 0 18px;
     border: 1px solid var(--line-strong);
-    background: #e7e3da;
+    background: #25272d;
 }
 
 .timeline-grid {
@@ -751,7 +756,7 @@ select {
 }
 
 .file-row:hover {
-    background: #f7f3ec;
+    background: rgba(219, 167, 106, .07);
 }
 
 .file-row:last-child {
@@ -1204,8 +1209,20 @@ select {
     padding: 42px 5vw 22px;
     color: var(--muted);
     border-top: 1px solid var(--line);
-    background: #efede6;
+    background: #101115;
     font: .68rem var(--mono);
+}
+
+.value-section {
+    scroll-margin-top: 100px;
+}
+
+.section-heading {
+    margin-bottom: 24px;
+}
+
+.section-heading .eyebrow {
+    margin-bottom: 14px;
 }
 
 .footer-main {
@@ -1299,8 +1316,10 @@ select:focus-visible,
     nav {
         order: 3;
         width: 100%;
-        justify-content: space-between;
-        gap: 8px;
+        justify-content: flex-start;
+        gap: 8px 16px;
+        overflow-x: auto;
+        padding-bottom: 3px;
     }
 
     .local-pill {
