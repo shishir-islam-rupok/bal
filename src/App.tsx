@@ -2,7 +2,7 @@ import { Fragment, useEffect, useRef, useState, type ReactNode } from 'react'
 import { convertFile, FORMAT_OPTIONS, type OutputFormat, validateImageFile } from './lib/converter'
 import { convertMediaFile, isAudioFile, isVideoFile, MEDIA_FORMAT_OPTIONS, type MediaOutputFormat, type MediaTrim, validateMediaFile } from './lib/mediaConverter'
 import './App.css'
-import {Analytics} from '@vercel/analytics/react'
+
 
 type QueueFile = {
   id: string
