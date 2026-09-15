@@ -1,1 +1,1 @@
-google.com, pub-1968682147736632, DIRECT, f08c47fec0942fa0
+# Ads.txt is intentionally blank until a live AdSense publisher record is approved and active.

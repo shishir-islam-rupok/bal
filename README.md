@@ -16,15 +16,11 @@ npm run lint
 npm run build
 ```
 
-## AdSense deployment checklist
+## Site readiness
 
-Before deploying, replace these placeholders:
+Before submitting for monetization review, ensure:
 
-1. In `public/ads.txt`, add the exact publisher record from Google AdSense:
-   `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`
-2. In `public/robots.txt`, replace `https://YOUR-DOMAIN.example/sitemap.xml` with the live sitemap URL.
-3. In `public/sitemap.xml`, replace `https://YOUR-DOMAIN.example/` with the canonical production URL.
-4. Add the AdSense script and ad slots only after receiving a publisher ID. Keep advertisements clearly separated from upload and download controls.
-5. Publish accurate Privacy, Terms, and Contact pages before requesting review. AdSense approval is determined by Google and cannot be guaranteed by code alone.
-
-Do not deploy the placeholder values as if they were production configuration.
+1. The site has a stable production domain, final sitemap, and canonical URLs.
+2. Privacy, Terms, and Contact pages are complete and final.
+3. No placeholder content, fake publisher IDs, or unfinished compliance notices remain in public files.
+4. Ad scripts and ad slots are added only after the site is already approved for the publisher account.
