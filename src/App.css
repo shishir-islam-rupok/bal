@@ -58,7 +58,7 @@
     justify-content: space-between;
     gap: 24px;
     padding: 20px 2.5vw;
-    background: rgba(12, 13, 16, 0.78);
+    background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--line);
     position: sticky;
@@ -1195,7 +1195,7 @@ select {
     padding: 42px 2.5vw 22px;
     color: var(--muted);
     border-top: 1px solid var(--line);
-    background: #101115;
+    background: rgba(255, 255, 255, 0.82);
     font: .68rem var(--mono);
 }
 
